@@ -152,6 +152,8 @@ Licensed under MIT — keep author credit in all derivative works.
 | `banned_libraries.md` | القائمة السوداء الكاملة |
 | `approved_fonts.md` | خطوط موصى بها (ويب + موبايل + عربي) |
 | `performance_checklist.md` | قائمة الأداء الشاملة |
+| `rtl_layout.md` | دليل التخطيط من اليمين لليسار — إجباري للمشاريع العربية |
+| `free_assets.md` | مصادر مجانية للصور والأيقونات والرسوميات |
 
 ---
 

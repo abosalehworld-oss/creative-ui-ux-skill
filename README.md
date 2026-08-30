@@ -365,7 +365,9 @@ creative-ui-ux-skill/
 └── references/
     ├── banned_libraries.md              ← The blacklist
     ├── approved_fonts.md                ← Curated font list (EN + AR)
-    └── performance_checklist.md         ← Complete performance checklist
+    ├── performance_checklist.md         ← Complete performance checklist
+    ├── rtl_layout.md                    ← RTL layout guide (Arabic projects)
+    └── free_assets.md                   ← Free photos, icons, illustrations
 ```
 
 ---
