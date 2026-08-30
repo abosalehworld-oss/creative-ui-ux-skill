@@ -13,6 +13,7 @@
 الـ AI ← يبحث عن ألوان تناسب مجال العميل وشخصيته:
   search_web: "[مجال العميل] color palette 2025 2026"
   search_web: "[الكلمات المفتاحية] brand color psychology"
+  search_web: "best [industry] brand colors award winning"
 
 الـ AI ← يدرس علم نفس الألوان في السياق:
   • الأزرق: ثقة، احترافية، تقنية
@@ -23,6 +24,19 @@
 
 ⚠️ الألوان يجب أن تعكس مجال العميل الفعلي — ليس ذوق الـ AI
 ```
+
+### مصادر إلهام الألوان (Color Inspiration Sources)
+
+| المصدر | التخصص | الرابط |
+|---|---|---|
+| **Coolors** | مولد Palettes تفاعلي + مكتبة | coolors.co |
+| **Realtime Colors** | معاينة الألوان على موقع حقيقي مباشرة | realtimecolors.com |
+| **Colour Lovers** | Palettes من مجتمع مصممين | colourlovers.com |
+| **Muzli Colors** | مولد ألوان من InVision | colors.muz.li |
+| **Happy Hues** | Palettes مع أمثلة تطبيق حية | happyhues.co |
+| **Color Hunt** | مجموعات ألوان يومية جديدة | colorhunt.co |
+| **Adobe Color** | مولد ألوان + استخراج من صور | color.adobe.com |
+| **Khroma** | ألوان بالـ AI مبنية على ذوقك | khroma.co |
 
 ---
 
