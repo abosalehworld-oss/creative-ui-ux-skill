@@ -65,16 +65,11 @@
 3. قل للـ AI: "اقرأ هذا الملف وطبّق تعليماته"
 ```
 
-#### الطريقة 2 — عبر Antigravity IDE
-```
-1. ضع المجلد في مسار Skills الخاص بك
-2. الـ AI يكتشفها تلقائياً ويستخدمها
-```
-
-#### الطريقة 3 — عبر skills.sh (قريباً)
+#### الطريقة 2 — Clone كامل (للمستخدمين المتقدمين)
 ```bash
-npx skills add creative-ui-ux-skill
+git clone https://github.com/abosalehworld-oss/creative-ui-ux-skill.git
 ```
+ضع المجلد في مسار Skills الخاص بـ IDE — الـ AI يكتشفها تلقائياً.
 
 ### المتطلبات
 - ✅ أي AI Agent يدعم Web Search وقراءة URLs
@@ -220,16 +215,11 @@ Instead of relying on memorized training data, this skill forces the AI to:
 3. Tell the AI: "Read this file and follow its instructions"
 ```
 
-#### Method 2 — Via Antigravity IDE
-```
-1. Place the folder in your Skills directory
-2. The AI auto-discovers and uses it
-```
-
-#### Method 3 — Via skills.sh (coming soon)
+#### Method 2 — Clone the full repo
 ```bash
-npx skills add creative-ui-ux-skill
+git clone https://github.com/abosalehworld-oss/creative-ui-ux-skill.git
 ```
+Place the folder in your IDE's Skills directory — the AI auto-discovers it.
 
 ### Requirements
 - ✅ Any AI Agent that supports Web Search and URL reading
