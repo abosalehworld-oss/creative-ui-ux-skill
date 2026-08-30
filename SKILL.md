@@ -1,3 +1,8 @@
+---
+name: creative-ui-ux-skill
+description: AI skill that kills UI Slop — forces live GitHub research, strict design gates & performance-first rules. Works with WordPress, Shopify, React, Mobile, Web & Desktop Apps. Bilingual Arabic/English. Includes brand identity, logo design, color systems, and full project audit mode.
+---
+
 # 🧭 SKILL.md — Master Index
 # Creative UI/UX Designer — Anti-Slop Edition
 <!--
