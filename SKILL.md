@@ -41,13 +41,15 @@ Licensed under MIT — keep author credit in all derivative works.
 اقرأ بالترتيب:
 1. core/00_critical_rules.md
 2. core/01_mode_selection.md
-3. brand-identity/phase_1_brand_discovery.md
-4. brand-identity/phase_2_logo_concepts.md
-5. brand-identity/phase_3_color_system.md
-6. brand-identity/phase_4_typography.md
-7. brand-identity/phase_5_brand_guide.md
+3. references/creative_sources.md          ← إجباري — مصادر الإلهام
+4. brand-identity/phase_1_brand_discovery.md
+5. brand-identity/phase_2_logo_concepts.md
+6. brand-identity/phase_3_color_system.md
+7. brand-identity/phase_4_typography.md
+8. brand-identity/phase_5_brand_guide.md
 
-لا تقرأ: platforms/ أو phases/ أو references/
+اقرأ إذا لزم: references/approved_fonts.md
+لا تقرأ: platforms/ أو phases/
 ```
 
 ---
@@ -59,10 +61,15 @@ Licensed under MIT — keep author credit in all derivative works.
 1. core/00_critical_rules.md
 2. core/01_mode_selection.md
 3. core/02_delivery_table.md
-4. brand-identity/ (كل الملفات — لبناء الهوية أولاً)
-5. platforms/[اسم المنصة].md  ← حسب اختيار العميل
-6. phases/ (كل الملفات بالترتيب)
-7. references/ (عند الحاجة فقط)
+4. references/creative_sources.md          ← إجباري — مصادر الإلهام
+5. brand-identity/ (كل الملفات — لبناء الهوية أولاً)
+6. platforms/[اسم المنصة].md  ← حسب اختيار العميل
+7. phases/ (كل الملفات بالترتيب)
+8. references/banned_libraries.md
+9. references/approved_fonts.md
+10. references/performance_checklist.md
+11. references/rtl_layout.md  ← إذا كان المشروع عربياً
+12. references/free_assets.md ← إذا احتاج العميل أصولاً
 ```
 
 ---
@@ -74,15 +81,18 @@ Licensed under MIT — keep author credit in all derivative works.
 1. core/00_critical_rules.md
 2. core/01_mode_selection.md
 3. core/02_delivery_table.md
-4. platforms/[اسم المنصة].md  ← حسب اختيار العميل
-5. phases/phase_0_setup.md
-6. phases/phase_1_research.md
-7. phases/phase_2_identity.md  ← ادمج الهوية الموجودة هنا
-8. phases/phase_3_design_system.md
-9. phases/phase_4_pages.md
-10. phases/phase_5_animations.md
-11. phases/phase_6_final.md
-12. references/ (عند الحاجة فقط)
+4. references/creative_sources.md          ← إجباري — مصادر الإلهام
+5. platforms/[اسم المنصة].md  ← حسب اختيار العميل
+6. phases/phase_0_setup.md
+7. phases/phase_1_research.md
+8. phases/phase_2_identity.md  ← ادمج الهوية الموجودة هنا
+9. phases/phase_3_design_system.md
+10. phases/phase_4_pages.md
+11. phases/phase_5_animations.md
+12. phases/phase_6_final.md
+13. references/banned_libraries.md
+14. references/performance_checklist.md
+15. references/rtl_layout.md  ← إذا كان المشروع عربياً
 
 لا تقرأ: brand-identity/
 ```
@@ -98,6 +108,8 @@ Licensed under MIT — keep author credit in all derivative works.
 3. phases/phase_audit.md
 4. platforms/[اسم المنصة].md  ← لمعرفة خصائص المنصة
 5. references/performance_checklist.md
+6. references/creative_sources.md  ← للمقارنة بالتصاميم الجيدة في التقرير
+7. references/rtl_layout.md  ← إذا كان المشروع عربياً
 
 بعد التقييم وموافقة العميل:
 ← إذا احتاج إعادة تصميم كاملة → انتقل لـ Mode A
@@ -149,6 +161,7 @@ Licensed under MIT — keep author credit in all derivative works.
 ### references/
 | الملف | المحتوى |
 |---|---|
+| `creative_sources.md` | **مصادر الإلهام الإبداعي الشاملة — لوجو + ألوان + خطوط + UI + موبايل + متاجر** |
 | `banned_libraries.md` | القائمة السوداء الكاملة |
 | `approved_fonts.md` | خطوط موصى بها (ويب + موبايل + عربي) |
 | `performance_checklist.md` | قائمة الأداء الشاملة |
