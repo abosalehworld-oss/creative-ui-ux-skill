@@ -58,22 +58,26 @@
 
 ### كيف تستخدمها؟
 
-#### الطريقة 1 — نسخ الملف مباشرة
-```
-1. حمّل SKILL.md من هذا الريبو
-2. اقرأه في بداية أي محادثة مع الـ AI
-3. قل للـ AI: "اقرأ هذا الملف وطبّق تعليماته"
-```
+> ⚠️ **مهم:** يجب تحميل الريبو كاملاً — ملف SKILL.md لوحده لا يكفي لأنه يحتوي على خريطة توجيه تشير لملفات أخرى داخل المجلد.
 
-#### الطريقة 2 — Clone كامل
+#### الطريقة 1 — حمّل الريبو كامل (مستحسن)
 ```bash
 git clone https://github.com/abosalehworld-oss/creative-ui-ux-skill.git
 ```
 ضع المجلد في مسار Skills الخاص بـ IDE — الـ AI يكتشفها تلقائياً.
+أو افتح أي AI Agent وقل له: "اقرأ ملف SKILL.md في هذا المجلد وطبّق تعليماته."
 
-#### الطريقة 3 — عبر Skills CLI
+#### الطريقة 2 — عبر Skills CLI
 ```bash
 npx skills add abosalehworld-oss/creative-ui-ux-skill
+```
+
+#### الطريقة 3 — حمّل ZIP من GitHub
+```
+1. اذهب لصفحة الريبو → Code → Download ZIP
+2. فك الضغط في أي مكان
+3. افتح أي AI Agent وأعطه مسار المجلد
+4. قل للـ AI: "اقرأ SKILL.md وطبّق تعليماته"
 ```
 
 ### المتطلبات
@@ -213,22 +217,26 @@ Instead of relying on memorized training data, this skill forces the AI to:
 
 ### How to Use
 
-#### Method 1 — Copy the file directly
-```
-1. Download SKILL.md from this repo
-2. Read it at the start of any AI conversation
-3. Tell the AI: "Read this file and follow its instructions"
-```
+> ⚠️ **Important:** You must download the full repo — SKILL.md alone is not enough because it contains a routing map that references other files in the folder.
 
-#### Method 2 — Clone the full repo
+#### Method 1 — Clone the full repo (Recommended)
 ```bash
 git clone https://github.com/abosalehworld-oss/creative-ui-ux-skill.git
 ```
 Place the folder in your IDE's Skills directory — the AI auto-discovers it.
+Or open any AI Agent and say: "Read SKILL.md in this folder and follow its instructions."
 
-#### Method 3 — Via Skills CLI
+#### Method 2 — Via Skills CLI
 ```bash
 npx skills add abosalehworld-oss/creative-ui-ux-skill
+```
+
+#### Method 3 — Download ZIP from GitHub
+```
+1. Go to the repo page → Code → Download ZIP
+2. Extract anywhere
+3. Open any AI Agent and give it the folder path
+4. Tell the AI: "Read SKILL.md and follow its instructions"
 ```
 
 ### Requirements
