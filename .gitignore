@@ -1,0 +1,131 @@
+# ==========================================
+# .gitignore — creative-ui-ux-skill
+# © 2026 Mohamed Saleh
+# ==========================================
+
+# ==========================================
+# 🪟 Windows OS Files
+# ==========================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# ==========================================
+# 🍎 macOS Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+
+# ==========================================
+# 🐧 Linux Files
+# ==========================================
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==========================================
+# 📝 Editor & IDE Files
+# ==========================================
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# JetBrains (IntelliJ, WebStorm, etc.)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*#
+.#*
+
+# Notepad++
+npp_backup/
+
+# ==========================================
+# 🔐 Security — Never Upload These
+# ==========================================
+
+# API Keys & Secrets
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.json
+secrets.yaml
+secrets.yml
+config.private.*
+
+# Personal Notes (private scratch files)
+PRIVATE.md
+private/
+personal/
+notes-private.*
+scratch-private.*
+
+# ==========================================
+# 📦 Package Managers (if ever added)
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnp.*
+
+# ==========================================
+# 🗂️ Temp & Build Files
+# ==========================================
+*.tmp
+*.temp
+*.log
+*.cache
+.cache/
+dist/
+build/
+out/
+.output/
+tmp/
+temp/
+
+# ==========================================
+# 📊 OS-Generated Metadata
+# ==========================================
+*.pid
+*.seed
+*.pid.lock
