@@ -65,11 +65,16 @@
 3. قل للـ AI: "اقرأ هذا الملف وطبّق تعليماته"
 ```
 
-#### الطريقة 2 — Clone كامل (للمستخدمين المتقدمين)
+#### الطريقة 2 — Clone كامل
 ```bash
 git clone https://github.com/abosalehworld-oss/creative-ui-ux-skill.git
 ```
 ضع المجلد في مسار Skills الخاص بـ IDE — الـ AI يكتشفها تلقائياً.
+
+#### الطريقة 3 — عبر Skills CLI
+```bash
+npx skills add abosalehworld-oss/creative-ui-ux-skill
+```
 
 ### المتطلبات
 - ✅ أي AI Agent يدعم Web Search وقراءة URLs
@@ -220,6 +225,11 @@ Instead of relying on memorized training data, this skill forces the AI to:
 git clone https://github.com/abosalehworld-oss/creative-ui-ux-skill.git
 ```
 Place the folder in your IDE's Skills directory — the AI auto-discovers it.
+
+#### Method 3 — Via Skills CLI
+```bash
+npx skills add abosalehworld-oss/creative-ui-ux-skill
+```
 
 ### Requirements
 - ✅ Any AI Agent that supports Web Search and URL reading
