@@ -129,3 +129,8 @@ temp/
 *.pid
 *.seed
 *.pid.lock
+
+# Auto-added: temp/scratch files
+*.rar
+*.zip
+*.7z
