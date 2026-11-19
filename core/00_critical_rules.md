@@ -58,7 +58,7 @@
 
 ## CRITICAL RULE 6 — يونيفرسال وبدون تبعيات (UNIVERSAL & PORTABLE)
 - لا مسارات ثابتة (Hardcoded Paths)
-- لا اسكريبتات خارجية **إلزامية** (سكربت `ui-ux-pro-max` المحلي اختياري ومدمج مع المهارة — Python فقط)
+- لا اسكريبتات خارجية مطلوبة
 - لا أدوات مدفوعة
 - كل البحث بأدوات الـ AI المدمجة: Web Search, URL Reading, GitHub Search — وإن لم تتوفر، قل ذلك
 

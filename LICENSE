@@ -26,11 +26,3 @@ SKILL.
 يُسمح باستخدام هذا العمل وتعديله وتوزيعه بحرية مع الإبقاء على حقوق الملكية الأصلية.
 يجب الإبقاء على اسم المؤلف (Mohamed Saleh) في أي نسخة مشتقة أو معدلة.
 
----
-
-EXCLUSION / استثناء:
-The `ui-ux-pro-max/` directory is NOT covered by the copyright notice above. It is third-party
-software by Next Level Builder, licensed under the MIT License — see THIRD_PARTY_NOTICES.md.
-
-مجلد `ui-ux-pro-max/` غير مشمول بحقوق الملكية أعلاه، وليس من تأليف Mohamed Saleh.
-هو برنامج طرف ثالث مملوك لـ Next Level Builder بترخيص MIT — راجع THIRD_PARTY_NOTICES.md.

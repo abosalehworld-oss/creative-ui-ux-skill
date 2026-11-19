@@ -341,7 +341,6 @@ creative-ui-ux-skill/
 ├── GEMINI.md                             ← Auto-loaded binding rules (Gemini)
 ├── README.md                             ← This file
 ├── CHANGELOG.md                          ← Version history
-├── THIRD_PARTY_NOTICES.md                ← Upstream licenses (ui-ux-pro-max)
 │
 ├── core/
 │   ├── 00_agent_integrity_protocol.md   ← Binding integrity protocol + Final Self-Audit (read FIRST)
@@ -381,8 +380,6 @@ creative-ui-ux-skill/
     ├── rtl_layout.md                    ← RTL layout guide (Arabic projects)
     ├── free_assets.md                   ← Free photos, icons, illustrations
     └── freshness_registry.md            ← Dated facts + official sources (re-verify rule)
-│
-└── ui-ux-pro-max/                       ← Third-party (Next Level Builder, MIT) — local design database + search.py
 ```
 
 ---

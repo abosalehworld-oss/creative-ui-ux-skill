@@ -422,6 +422,4 @@ Design work has its own ways to fabricate. These are forbidden with the same for
 ✅ Fonts/assets: record license type (OFL, Fontshare ITF FFL, commercial) + source URL in the delivery table.
 ✅ Existing projects (Mode B): do not rip out working libraries just because they are on the banned list —
    report, estimate impact, and change only with the client's approval.
-✅ The ui-ux-pro-max database is a local reference: quote what the script actually returned; if it returned
-   0 results or did not run, say so (never present defaults as database output).
 ```
