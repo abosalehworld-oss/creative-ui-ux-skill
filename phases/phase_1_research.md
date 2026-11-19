@@ -14,7 +14,7 @@
   search_web: "best new UI component library [السنة الحالية]"
   search_web: "creative frontend libraries github [نوع المشروع]"
   search_web: "[نوع المشروع] UI kit github stars:>1000"
-  (اختياري) قاعدة البيانات المحلية: python "<مسار-المهارة>/ui-ux-pro-max/scripts/search.py" "<المجال> <الأسلوب>" --design-system
+  (اختياري) قاعدة البيانات المحلية: python "<مسار-مجلد-المهارة-على-هذا-الجهاز>/ui-ux-pro-max/scripts/search.py" "<المجال> <الأسلوب>" --design-system
 
 قواعد فلترة المكتبات:
   ✅ أكثر من 500 نجمة على GitHub

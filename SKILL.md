@@ -216,7 +216,7 @@ Licensed under MIT — keep author credit in all derivative works.
 
 **طريقة التشغيل من أي بيئة (Gemini / Claude / غيرها):** حدّد مسار مجلد هذه المهارة أولاً ثم شغّل:
 ```bash
-python "<مسار-المهارة>/ui-ux-pro-max/scripts/search.py" "<استعلام>" --design-system -p "<اسم المشروع>"
+python "<مسار-مجلد-المهارة-على-هذا-الجهاز>/ui-ux-pro-max/scripts/search.py" "<استعلام>" --design-system -p "<اسم المشروع>"
 ```
 - `${CLAUDE_PLUGIN_ROOT}` لا يوجد إلا في Claude Code Plugins — في أي بيئة أخرى استخدم المسار الفعلي.
 - إذا لم يعمل Python أو لم يرجع نتائج → قل ذلك صراحةً ولا تقدّم القيم الافتراضية كأنها نتيجة قاعدة البيانات.

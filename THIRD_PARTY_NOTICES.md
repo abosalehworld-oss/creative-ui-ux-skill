@@ -27,6 +27,9 @@ or substantial portions of the software:
 > DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+Local modifications (2026-11-19): command paths in `ui-ux-pro-max/SKILL.md` made portable (`<SKILL_DIR>`),
+GEMINI.md added, and upstream-only tests guarded with a skip. All other upstream content is unchanged.
+
 Four upstream maintenance tests in `ui-ux-pro-max/scripts/tests/` need the full upstream
 repository and skip automatically here.
 
