@@ -22,4 +22,4 @@
 - Font names corrected (IBM Plex Sans Arabic); Fontshare license note; system fonts allowed on native platforms.
 
 ### Removed
-- `ui-ux-pro-max/` — third-party content (not authored by the skill owner) removed entirely; the skill is now 100% original work.
+- Third-party bundled content removed; the skill is now 100% original work by Mohamed Saleh.
