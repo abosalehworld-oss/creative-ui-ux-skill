@@ -110,7 +110,7 @@
 .price, .stats, .phone {
   font-feature-settings: "tnum";
   direction: ltr; /* الأرقام وأرقام الهاتف دائماً LTR */
-  unicode-bidi: embed;
+  unicode-bidi: isolate; /* أو استخدم <bdi> في HTML للنصوص الديناميكية */
 }
 
 /* مثال: رقم الهاتف */

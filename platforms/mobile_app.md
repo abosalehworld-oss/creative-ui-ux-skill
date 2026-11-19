@@ -151,8 +151,8 @@ lib/
 ```
 ✅ كل الألوان من theme/colors.ts فقط
 ✅ كل الأبعاد مضروبة في 1 (لا px hardcoded)
-✅ Responsive: استخدم Dimensions.get('window') للنسب
-✅ Accessibility: minimumTouchTarget = 44x44px
+✅ Responsive: استخدم useWindowDimensions() (يتحدث مع الدوران وتقسيم الشاشة) بدلاً من Dimensions.get
+✅ Accessibility: هدف لمس ≥ 44×44pt (iOS) و ≥ 48×48dp (Android)
 ✅ Safe Areas: استخدم SafeAreaView دائماً
 
 ❌ ممنوع hardcoded colors في Screens أو Components
@@ -202,10 +202,12 @@ iOS:
   • Haptic Feedback للـ Buttons المهمة
   • Bottom Sheet بدلاً من Dialog
   • Large Title في Navigation (iOS 11+)
+  • iOS 26+: Liquid Glass للتنقل وأشرطة التبويب — لا تغطِّ عناصر النظام بخلفيات مصمتة مخصصة دون سبب
   • Safe Area: Top (notch) + Bottom (home indicator)
 
 Android:
-  • Material You colors (Android 12+)
+  • Material You / Material 3 Expressive (Dynamic Color من Android 12+)
+  • Edge-to-edge إجباري عند استهداف API 35+ — صمّم خلف شريط الحالة والتنقل
   • Ripple Effect على Touchables
   • Back Button behavior
   • Status Bar color يجب أن يتطابق مع Header

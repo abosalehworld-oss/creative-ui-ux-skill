@@ -41,8 +41,8 @@
    • ⚠️ Hover: استخدم transform/scale/opacity فقط (لا Reflow)
 
 2. Card
-   • ⚠️ يجب لمسة فنية واحدة على الأقل:
-     Glassmorphism / Soft Shadow / Gradient Border / Glow
+   • ⚠️ لمسة فنية مقصودة تخدم الـ Vibe (وليست زينة إجبارية):
+     Soft Shadow / Border دقيق / Gradient Border / Glass (مع تباين مضمون وبديل عند prefers-reduced-transparency)
    • Hover: lift effect (transform: translateY(-4px))
 
 3. Input / TextField
@@ -109,7 +109,8 @@
   □ لا مكتبات من القائمة السوداء: "[اسم المكتبة] ✓"
   □ Hover Effects بدون Reflow: "transform only ✓"
   □ كل زر له Focus Visible: ":focus-visible ✓"
-  □ كل Card لها لمسة فنية: "[اسم التأثير] ✓"
+  □ كل Card لها لمسة فنية مقصودة لا تضر التباين: "[اسم التأثير] ✓"
+  □ نسب التباين محسوبة بالأرقام لكل زوج لون/خلفية: "#___ على #___ = __:1 ✓"
   □ Padding سخي على كل المكونات: "padding: Xrem ✓"
 
   للـ WordPress: العميل يضع CSS في Additional CSS ويؤكد أنه يعمل.

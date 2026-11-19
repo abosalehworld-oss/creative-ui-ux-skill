@@ -36,7 +36,11 @@ For the full rule list per category (all 119 UX guidelines with rationale), read
 
 ## Running the search tool
 
-The search script lives inside this skill's own directory, not the project directory. Always invoke it by its full path — do not assume a particular working directory:
+The search script lives inside this skill's own directory, not the project directory. Always invoke it by its full path — do not assume a particular working directory.
+
+> **Outside Claude Code plugins** (Gemini CLI, Antigravity, Cursor, a plain shell…) `${CLAUDE_PLUGIN_ROOT}` is NOT defined. Replace the whole prefix with the real path of this folder, e.g. `python "<path-to>/ui-ux-pro-max/scripts/search.py" "<query>" --domain ux`. Never claim a search ran if the command failed — report the error.
+
+Claude Code plugin form:
 
 ```bash
 python "${CLAUDE_PLUGIN_ROOT}/.claude/skills/ui-ux-pro-max/scripts/search.py" "<query>" --domain <domain>

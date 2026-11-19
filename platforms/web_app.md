@@ -113,7 +113,7 @@ Feedback Pattern:
   • Memoization للـ Heavy Components (React.memo, useMemo)
 
 ⚠️ Charts:
-  • استخدم Lightweight مكتبات (Recharts 350KB, Chart.js 200KB)
+  • قارن الأحجام بقياس فعلي (bundlephobia / build output) — لا تكتب أرقاماً من الذاكرة
   • تجنب D3.js إلا إذا كانت Charts معقدة جداً
   • Lazy Load الـ Charts خارج الـ Viewport
 

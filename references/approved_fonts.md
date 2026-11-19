@@ -1,6 +1,8 @@
 # 🔤 Approved Fonts — الخطوط الموصى بها
 
-> هذه قائمة مرجعية — ليست إجبارية.
+> هذه قائمة مرجعية — ليست إجبارية. تحقق من وجود الخط وترخيصه على صفحته قبل الاقتراح.
+> ⚠️ خطوط Fontshare (Clash Display, Satoshi, Cabinet Grotesk, General Sans) لها ترخيص ITF Free Font License — اقرأه وسجّله، وليست على Google Fonts.
+> ⚠️ "المحظورة" هنا تعني: لا تجعلها الخط المميز للهوية — لا تمنع استخدام خطوط النظام في التطبيقات الأصلية.
 > دائماً ابحث عن خطوط جديدة في Phase 1.
 > الأفضل: خط مكتشف من البحث الحي > خط من هذه القائمة.
 
@@ -58,7 +60,7 @@ Montserrat (مستهلك جداً), Raleway (مستهلك)
 | الخط | الأسلوب | المصدر | الاستخدام |
 |---|---|---|---|
 | Readex Pro | Modern, Bilingual | Google Fonts | أفضل للمشاريع العربية-الإنجليزية |
-| IBM Plex Arabic | Technical | Google Fonts | Tech, SaaS, Corporate |
+| IBM Plex Sans Arabic | Technical | Google Fonts | Tech, SaaS, Corporate |
 | Cairo Play | Variable Weight | Google Fonts | Universal |
 | Tajawal | Clean Modern | Google Fonts | E-commerce, App |
 | Noto Kufi Arabic | Kufi Style | Google Fonts | Formal, Cultural |

@@ -35,7 +35,7 @@
   ❌ ممنوع: Roboto, Arial, Helvetica, Open Sans, Lato
   ✅ مطلوب: Clash Display, Plus Jakarta Sans, Space Grotesk,
             Outfit, Syne, Cabinet Grotesk, Satoshi, General Sans
-  ✅ عربي: IBM Plex Arabic, Readex Pro, Cairo Play, Tajawal
+  ✅ عربي: IBM Plex Sans Arabic, Readex Pro, Cairo Play, Tajawal
   ✅ أو أي خط جديد مكتشف من البحث في Phase 1
 ```
 

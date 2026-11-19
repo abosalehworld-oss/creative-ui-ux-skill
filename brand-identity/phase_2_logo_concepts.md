@@ -19,7 +19,7 @@
 الـ AI ← يبحث حياً في هذه المصادر بالترتيب (ليس من الذاكرة):
 
 🔎 بحث 1 — لوجوهات المنافسين والمجال:
-  search_web: "[مجال العميل] brand logo examples 2025 2026"
+  search_web: "[مجال العميل] brand logo examples [السنة الحالية]"
   search_web: "best [industry] logo design award winning"
   → يستخرج: ما هو مشترك بين اللوجوهات الناجحة في المجال؟
   → يستخرج: ما هو مُكرَّر ويجب تجنبه؟
@@ -33,7 +33,7 @@
   read_url_content: "https://www.logomoose.com" ← لوجوهات يومية جديدة
 
 🔎 بحث 3 — تقنيات تصميم اللوجو الحديثة:
-  search_web: "logo design trends 2025 2026"
+  search_web: "logo design trends [السنة الحالية]"
   search_web: "creative logo techniques negative space lettermark"
   → يستخرج: تقنيات مبتكرة يمكن تطبيقها
 
@@ -159,3 +159,4 @@
 □ تم توليد SVG كامل
 □ العميل وافق على التنويعات السبعة
 □ اللوجو يعمل على خلفيات فاتحة وداكنة
+□ أُبلغ العميل بضرورة فحص العلامة التجارية قبل الاعتماد (WIPO Global Brand Database / المكتب الوطني) — لا ضمان للتفرد

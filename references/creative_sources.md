@@ -23,7 +23,7 @@
 
 ```
 Search strategy / استراتيجية البحث:
-  search_web: "[industry] logo design inspiration 2025 2026"
+  search_web: "[industry] logo design inspiration [السنة الحالية]"
   search_web: "best [industry] logo award winning"
   search_web: "site:dribbble.com [industry] logo"
   search_web: "site:behance.net [industry] brand identity"
@@ -47,7 +47,7 @@ Search strategy / استراتيجية البحث:
 
 ```
 Search strategy / استراتيجية البحث:
-  search_web: "[industry] color palette 2025 2026"
+  search_web: "[industry] color palette [السنة الحالية]"
   search_web: "[personality keywords] brand color psychology"
   search_web: "best [industry] brand colors award winning"
 ```
@@ -68,7 +68,7 @@ Search strategy / استراتيجية البحث:
 
 ```
 Search strategy / استراتيجية البحث:
-  search_web: "best font pairing [project type] 2025 2026"
+  search_web: "best font pairing [project type] [السنة الحالية]"
   search_web: "modern [elegant/tech/friendly] font recommendation"
   search_web: "arabic font pairing modern 2025"
 ```
@@ -92,7 +92,7 @@ Search strategy / استراتيجية البحث:
 
 ```
 Search strategy / استراتيجية البحث:
-  search_web: "best [industry] website design 2025 2026"
+  search_web: "best [industry] website design [السنة الحالية]"
   search_web: "awwwards [industry]"
   search_web: "[project type] UI design inspiration"
   search_web: "best [SaaS/ecommerce/portfolio] design"

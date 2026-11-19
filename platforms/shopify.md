@@ -28,6 +28,12 @@ Shopify Theme Structure:
 
 ---
 
+## ⚠️ قبل أي تعديل
+```
+✅ اعمل نسخة: Online Store → Themes → ⋯ → Duplicate — وعدّل على النسخة، ثم Preview قبل Publish
+✅ تعديل ملفات الثيم يمنع التحديث التلقائي للثيم من المتجر — أخبر العميل بذلك صراحةً
+```
+
 ## قواعد Shopify الصارمة
 
 ```
@@ -58,9 +64,8 @@ Shopify Theme Structure:
   {{ 'custom.css' | asset_url | stylesheet_tag }}
 
 الخطوة 3: الخطوط
-  → أضف في layout/theme.liquid قبل custom.css:
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="Google Fonts URL" rel="stylesheet">
+  → الأفضل: مكتبة خطوط Shopify عبر إعدادات الثيم و filter `font_face` / `font_url`،
+    أو رفع ملفات الخط إلى assets/ واستخدام @font-face (بدون CDN خارجي — يتوافق مع قاعدة "لا CDN خارجي" أدناه)
 
 الخطوة 4: إنشاء Sections
   → sections/ → Add new file: custom-hero.liquid

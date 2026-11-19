@@ -134,3 +134,7 @@ temp/
 *.rar
 *.zip
 *.7z
+
+# Python bytecode
+__pycache__/
+*.pyc

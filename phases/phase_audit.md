@@ -30,7 +30,8 @@
 
 ### 🌐 مواقع الويب والويب أبلكيشن:
 ```
-الـ AI ← يقرأ الكود (read_url_content) ويحلل:
+الـ AI ← يقيس فعلاً إن أمكن (PageSpeed Insights / Lighthouse / WebPageTest) ويذكر: بيانات ميدانية (CrUX) أم معملية
+       ثم يقرأ الكود (read_url_content) ويحلل — وأي رقم لم يُقَس يُكتب "لم يُقَس":
 
 📊 جدول تقييم الأداء:
 | المعيار | الحالة | التأثير | الأولوية |
@@ -53,7 +54,7 @@
 | المعيار | الحالة | الأولوية |
 |---|---|---|
 | Animations تستخدم JS Thread | ✅/❌ | 🔴 |
-| FlatList بدون getItemLayout | ✅/❌ | 🔴 |
+| قوائم طويلة بدون Virtualization مناسبة (FlatList/FlashList) | ✅/❌ | 🔴 |
 | Hardcoded Colors (لا theme) | ✅/❌ | 🟡 |
 | Images بدون resizeMode | ✅/❌ | 🟡 |
 | Memory Leaks محتملة | ✅/❌ | 🔴 |
@@ -128,8 +129,9 @@
   موبايل: تحسين Bundle Size، Image Caching
   ديسكتوب: High DPI، Keyboard Shortcuts
 
+🔴 الوصولية (Accessibility) ليست اختيارية — مشاكلها الحرجة (تباين، كيبورد، Labels) تُعامل كحرجة.
 🟢 خفيفة (اختيارية):
-  Semantic HTML، Accessibility، Micro-optimizations
+  Semantic HTML التجميلي، Micro-optimizations
 
 ⚠️ قاعدة "لا تثقّل":
   قبل إضافة أي أداة جديدة → احسب تأثيرها أولاً

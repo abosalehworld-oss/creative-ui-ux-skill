@@ -34,7 +34,7 @@
 
 ```
 الـ AI ← يبحث أولاً (لا من الذاكرة):
-  search_web: "lightweight animation library web 2025 2026"
+  search_web: "lightweight animation library web [السنة الحالية]"
   search_web: "scroll animation no dependency vanilla js"
 
 📊 الخيارات من الأخف للأثقل:
@@ -43,14 +43,16 @@
 |---|---|---|
 | CSS @keyframes + Intersection Observer | 0KB ← الأفضل دائماً | Fade, Slide, Scale |
 | Web Animations API (Native) | 0KB | Animation التحكم بـ JS |
-| AOS (Animate on Scroll) | 6KB | Scroll animations سريعة |
-| @motionone/dom | 15KB | Animations متقدمة بـ API بسيط |
-| Framer Motion | 45KB | React فقط — Gestures + Layout |
-| GSAP Core | 27KB | Timeline + ScrollTrigger معقد |
+| CSS Scroll-driven Animations (animation-timeline) | 0KB | Scroll effects أصلية — تحقق من الدعم وضع fallback |
+| Motion (`motion` — كان Framer Motion و Motion One) | يُقاس | React / Vanilla — Gestures + Layout |
+| GSAP Core (+ ScrollTrigger) | يُقاس | Timeline + ScrollTrigger معقد |
+
+⚠️ الأحجام تتغير مع كل إصدار — لا تكتب رقماً بدون قياسه (bundlephobia / pkg-size / build output).
+⚠️ AOS غير مُحدَّث منذ سنوات و`@motionone/dom` أُدمج في `motion` — لا تقترحهما لمشروع جديد.
 
 ⚠️ GSAP: استخدم Core فقط — لا Plugins إلا إذا لزم
 ⚠️ Framer Motion: React/Next فقط
-⚠️ لـ WordPress: AOS أو Vanilla JS فقط (خفيف)
+⚠️ لـ WordPress: IntersectionObserver + CSS (Vanilla) أولاً — بدون مكتبات ثقيلة
 ⚠️ لـ Mobile: React Native Reanimated أو Flutter Animations النيتيف
 ```
 
@@ -87,7 +89,8 @@
   ❌ ممنوع في animations: top, left, width, height, margin, padding
   ✅ Duration المثالي: 200ms-600ms
   ✅ Easing: cubic-bezier مخصص
-     fast-out: cubic-bezier(0.4, 0, 1, 1)
+     accelerate (للخروج): cubic-bezier(0.4, 0, 1, 1)
+     decelerate (للدخول): cubic-bezier(0, 0, 0.2, 1)
      ease-in-out: cubic-bezier(0.4, 0, 0.2, 1)
      spring: cubic-bezier(0.34, 1.56, 0.64, 1)
   ✅ إجباري:
@@ -106,8 +109,8 @@
 ```
 WordPress:
   → كود JS يوضع في WPCode Plugin
-  → أو في Footer via Appearance → Theme Editor → footer.php
-  → أو Custom Plugin بسيط
+  → أو Custom Plugin بسيط / Child Theme (wp_enqueue_script مع defer)
+  ⛔ لا تعدّل footer.php للثيم الأصلي (يضيع مع التحديث، والثيمات الحديثة Block Themes بلا footer.php)
 
 برمجة خاصة:
   → مدمج مباشرة في Components
@@ -131,7 +134,7 @@ Desktop:
 
 📋 قائمة التحقق:
 ```
-□ الأنيميشن ناعم (60fps) — لا تقطيع
+□ الأنيميشن ناعم — قِيس فعلاً (DevTools Performance) أو اكتب "لم يُقَس"
 □ يستخدم transform/opacity فقط: "لا top/left/width في animations ✓"
 □ Duration بين 200-600ms: "___ms ✓"
 □ prefers-reduced-motion مُطبّق: "✓"

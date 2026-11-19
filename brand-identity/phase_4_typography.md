@@ -28,7 +28,7 @@
 
 ```
 الـ AI ← يبحث عن خطوط مناسبة:
-  search_web: "best modern fonts 2025 2026 [الشخصية المطلوبة]"
+  search_web: "best modern fonts [السنة الحالية] [الشخصية المطلوبة]"
   search_web: "google fonts [الكلمات المفتاحية] pairing"
   تصفح: https://fonts.google.com/
   تصفح: https://fontshare.com/ (خطوط مجانية ممتازة)
@@ -36,7 +36,7 @@
 
 للمشاريع العربية:
   تصفح: https://fonts.google.com/?subset=arabic
-  خطوط موصى بها: IBM Plex Arabic, Noto Kufi Arabic,
+  خطوط موصى بها: IBM Plex Sans Arabic, Noto Kufi Arabic,
                  Readex Pro, Cairo Play, Tajawal
 ```
 

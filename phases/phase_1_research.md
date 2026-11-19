@@ -11,11 +11,10 @@
 الـ AI ← يبحث حياً (ليس من الذاكرة):
 
 🔎 استراتيجيات البحث الإجبارية:
-  search_web: "best new UI component library 2025 2026"
+  search_web: "best new UI component library [السنة الحالية]"
   search_web: "creative frontend libraries github [نوع المشروع]"
   search_web: "[نوع المشروع] UI kit github stars:>1000"
-  npx skills find "ui" أو "design" أو "frontend"
-  تصفح: https://skills.sh/
+  (اختياري) قاعدة البيانات المحلية: python "<مسار-المهارة>/ui-ux-pro-max/scripts/search.py" "<المجال> <الأسلوب>" --design-system
 
 قواعد فلترة المكتبات:
   ✅ أكثر من 500 نجمة على GitHub
@@ -34,7 +33,7 @@
 
 | # | المكتبة | النجوم | آخر تحديث | الحجم | لماذا مناسبة؟ |
 |---|---|---|---|---|---|
-| 1 | [الاسم + رابط GitHub] | ★___K | ___ | ___KB | ___________ |
+| 1 | [الاسم + رابط GitHub فُتح فعلاً] | ★___K (كما في الصفحة بتاريخ اليوم) | ___ | ___KB (المصدر: bundlephobia/pkg-size أو "لم يُقَس") | ___________ |
 | 2 | [الاسم + رابط GitHub] | ★___K | ___ | ___KB | ___________ |
 | 3 | [الاسم + رابط GitHub] | ★___K | ___ | ___KB | ___________ |
 ```
@@ -47,12 +46,12 @@
 الـ AI ← يبحث عن مواقع/تطبيقات فعلية في نفس مجال العميل:
 
 🔎 مصادر الإلهام:
-  search_web: "best [مجال المشروع] website design 2025 2026"
+  search_web: "best [مجال المشروع] website design [السنة الحالية]"
   search_web: "awwwards [مجال المشروع]"
   search_web: "[مجال المشروع] app UI design inspiration"
   → إذا أعطى العميل مراجع في Phase 0 ← استخدمها أولاً
 
-الـ AI ← يفتح أفضل 3 مواقع ويقرأها (read_url_content)
+الـ AI ← يفتح أفضل 3 مواقع ويقرأها (read_url_content) — وإن لم تتوفر أداة قراءة الروابط: قل ذلك واطلب من العميل لقطات شاشة
 الـ AI ← يستخلص منها:
   • نمط الألوان السائد
   • نمط التخطيط

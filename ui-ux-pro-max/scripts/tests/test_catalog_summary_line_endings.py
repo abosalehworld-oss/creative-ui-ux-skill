@@ -15,9 +15,18 @@ import unittest
 from pathlib import Path
 
 REPO = next(
+    (
     parent for parent in Path(__file__).resolve().parents
     if (parent / "scripts" / "generate-catalog-summary.py").is_file()
+    ),
+    None,
 )
+
+if REPO is None:
+    raise unittest.SkipTest(
+        "Upstream-only test: needs the full ui-ux-pro-max-skill repository "
+        "(maintenance scripts not vendored in this skill)."
+    )
 DATA = REPO / "src/ui-ux-pro-max/data"
 SNAPSHOT_FILES = (
     "google-fonts.csv",

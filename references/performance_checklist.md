@@ -76,11 +76,11 @@
 □ Animations على UI Thread (Reanimated) لا JS Thread
 □ FlatList: getItemLayout + keyExtractor + initialNumToRender
 □ Images: FastImage أو مكتبة Caching
-□ لا Anonymous functions في JSX (تسبب re-renders)
+□ تجنّب re-renders غير الضرورية (قِسها بـ React DevTools Profiler قبل التحسين)
 □ React.memo للـ Components الثقيلة
 □ useMemo/useCallback للـ Heavy computations
 □ InteractionManager.runAfterInteractions للـ Heavy tasks
-□ Bundle Size: < 10MB للـ App الكامل
+□ حجم التحميل معقول للفئة (قِسه من Play Console / App Store Connect — لا تخمّن)
 □ Startup Time: < 2s على أجهزة متوسطة
 ```
 
@@ -103,7 +103,8 @@
 
 ```
 □ Contrast Ratio ≥ 4.5:1 للنص العادي (WCAG AA)
-□ Contrast Ratio ≥ 3:1 للنص الكبير (18px+)
+□ Contrast Ratio ≥ 3:1 للنص الكبير (24px عادي أو 18.66px عريض فأكثر)
+□ حجم هدف اللمس ≥ 24×24 CSS px (WCAG 2.2) — والأفضل 44–48
 □ Contrast Ratio ≥ 3:1 للـ UI Components
 □ :focus-visible واضح على كل العناصر التفاعلية
 □ Keyboard Navigation كامل (Tab, Enter, Escape, Arrow Keys)
@@ -120,13 +121,14 @@
 
 ```
 Web Core Web Vitals (هدف):
-  LCP (Largest Contentful Paint): < 2.5s
-  FID (First Input Delay): < 100ms
-  CLS (Cumulative Layout Shift): < 0.1
+  (عند الشريحة p75 من بيانات المستخدمين الحقيقيين)
+  LCP (Largest Contentful Paint): ≤ 2.5s
+  INP (Interaction to Next Paint): ≤ 200ms   ← FID أُلغي في مارس 2024 — لا تستخدمه
+  CLS (Cumulative Layout Shift): ≤ 0.1
   TTFB (Time to First Byte): < 800ms
 
 Mobile:
-  App Size: < 10MB
+  App Size: يُقاس ويُقارن بالإصدار السابق (لا رقم ثابت)
   Startup: < 2s
   60fps في كل الـ Animations
 

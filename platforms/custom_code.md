@@ -118,11 +118,11 @@ npx create-next-app@latest project-name --typescript --tailwind --app
 npm install [library-name]
 
 # تثبيت مكتبة أنيميشن
-npm install framer-motion
+npm install motion        # (Framer Motion سابقاً) — import { motion } from "motion/react"
 # أو
 npm install gsap
 # أو (الأخف)
-npm install @motionone/dom
+# (لا تستخدم @motionone/dom — أُدمج في motion) — الأخف: CSS + IntersectionObserver
 ```
 
 ---
@@ -131,6 +131,7 @@ npm install @motionone/dom
 
 ```tsx
 // components/ui/Button.tsx
+// React 19+: ref is a normal prop — forwardRef is not needed for new code (React 18: keep forwardRef)
 import { type ButtonHTMLAttributes, forwardRef } from 'react'
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

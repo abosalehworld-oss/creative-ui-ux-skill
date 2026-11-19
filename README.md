@@ -338,10 +338,14 @@ Which direction speaks to you?
 creative-ui-ux-skill/
 │
 ├── SKILL.md                              ← Master Index — Start here
+├── GEMINI.md                             ← Auto-loaded binding rules (Gemini)
 ├── README.md                             ← This file
+├── CHANGELOG.md                          ← Version history
+├── THIRD_PARTY_NOTICES.md                ← Upstream licenses (ui-ux-pro-max)
 │
 ├── core/
-│   ├── 00_critical_rules.md             ← 8 Critical Rules (Anti-Slop + Performance + Bilingual)
+│   ├── 00_agent_integrity_protocol.md   ← Binding integrity protocol + Final Self-Audit (read FIRST)
+│   ├── 00_critical_rules.md             ← 12 Critical Rules (Anti-Slop + Performance + A11y + Licenses + Honesty)
 │   ├── 01_mode_selection.md             ← Mode selection + setup questions
 │   └── 02_delivery_table.md             ← Delivery per platform
 │
@@ -375,7 +379,10 @@ creative-ui-ux-skill/
     ├── approved_fonts.md                ← Curated font list (EN + AR)
     ├── performance_checklist.md         ← Complete performance checklist
     ├── rtl_layout.md                    ← RTL layout guide (Arabic projects)
-    └── free_assets.md                   ← Free photos, icons, illustrations
+    ├── free_assets.md                   ← Free photos, icons, illustrations
+    └── freshness_registry.md            ← Dated facts + official sources (re-verify rule)
+│
+└── ui-ux-pro-max/                       ← Third-party (Next Level Builder, MIT) — local design database + search.py
 ```
 
 ---
@@ -389,11 +396,11 @@ creative-ui-ux-skill/
 | **Gate B** | Design System (components + preview) | Client approves |
 | **Gate C** | Every page/screen individually | Client approves |
 | **Gate D** | Animations (performance + smoothness) | Client approves |
-| **Final** | Complete audit + delivery package | Client approves |
+| **Final** | Complete audit + delivery package + 🧾 Final Self-Audit | Client approves |
 
 ---
 
-## 🚨 The 8 Critical Rules
+## 🚨 The 12 Critical Rules
 
 | # | Rule | What It Does |
 |---|---|---|
@@ -405,6 +412,14 @@ creative-ui-ux-skill/
 | 6 | Universal & Portable | No hardcoded paths, no external dependencies |
 | 7 | Performance-First | No heavy code, protect Core Web Vitals |
 | 8 | Bilingual Auto-Detect | Responds in user's language automatically |
+| 9 | Accessibility = Release Blocker | WCAG 2.2 AA with computed contrast ratios |
+| 10 | Licenses & Trademarks | License + source for every font/library/asset; trademark search advice |
+| 11 | No Fake Deliverables | No claimed PNG/ICO/metrics that were not actually produced or measured |
+| 12 | Final Self-Audit | Re-verifies every claim before delivery |
+
+> All rules run under **`core/00_agent_integrity_protocol.md`** — 10 Unbreakable Rules (no fabricated research, real current date,
+> evidence labels, honest tool limits, no fake deliverables), a Simple-Execution Mode for smaller models, and a mandatory
+> **🧾 FINAL SELF-AUDIT** before any delivery.
 
 ---
 

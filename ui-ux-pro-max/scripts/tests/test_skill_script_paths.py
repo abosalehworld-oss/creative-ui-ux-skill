@@ -23,9 +23,18 @@ import unittest
 from pathlib import Path
 
 REPO = next(
+    (
     parent for parent in Path(__file__).resolve().parents
     if (parent / "scripts" / "generate-catalog-summary.py").is_file()
+    ),
+    None,
 )
+
+if REPO is None:
+    raise unittest.SkipTest(
+        "Upstream-only test: needs the full ui-ux-pro-max-skill repository "
+        "(maintenance scripts not vendored in this skill)."
+    )
 SKILL_TREES = ("cli/assets/skills", ".claude/skills")
 # The only file that may use the plugin-root form: hand-authored for the plugin install
 # and not shipped by the CLI (sync-assets.mjs mirrors data/ and scripts/, never SKILL.md).

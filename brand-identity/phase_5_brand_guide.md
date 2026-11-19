@@ -26,7 +26,8 @@
 
 ```
 الملفات المتوفرة:
-□ Full Logo (أفقي) — SVG + PNG
+⚠️ أنشئ PNG/ICO فقط إن كانت لديك أداة تحويل فعلية — وإلا سلّم SVG + خطوات التصدير (Inkscape / Figma / realfavicongenerator)
+□ Full Logo (أفقي) — SVG (+ PNG إن أمكن إنشاؤه فعلاً)
 □ Stacked Logo (عمودي) — SVG + PNG
 □ Icon Only — SVG + PNG + ICO (للـ Favicon)
 □ Wordmark Only — SVG + PNG

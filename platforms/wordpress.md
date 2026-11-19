@@ -5,7 +5,7 @@
 ## طريقة التسليم
 - **CSS المركزي** → Appearance → Customize → Additional CSS
 - **HTML لكل صفحة** → Custom HTML Block في Gutenberg أو Elementor HTML Widget
-- **JavaScript** → WPCode Plugin أو Functions.php (Header section)
+- **JavaScript** → WPCode Plugin أو Child Theme (wp_enqueue_script مع defer) — لا تعديل على ملفات الثيم الأصلي
 
 ---
 
@@ -33,8 +33,9 @@
 
 الخطوة 2: خطوط Google Fonts
   → Appearance → Customize → Additional CSS
-  → أضف @import في أول السطر
-  → أو استخدم Plugin: Google Fonts Optimizer
+  → الأفضل: استضافة الخطوط محلياً (Self-host) — أسرع، وأسلم مع GDPR للزوار الأوروبيين
+  → للثيمات الحديثة (Block Themes): Site Editor → Styles → Typography → Manage fonts (رفع ملفات الخط)
+  → تجنّب @import في Additional CSS (يبطئ التحميل)
 
 الخطوة 3: JavaScript للأنيميشن
   → ثبّت WPCode Plugin
